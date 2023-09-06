@@ -16,10 +16,10 @@ module.exports = {
         btn: '#00AD98'
       },
       colors: {
-        text: {
+          'secondary': '00AD98',
+          'tertiary': '#FFB347',
           'dark': '#333333',
-          'semidark': '#555555',
-        }
+          'semidark': '#555555'
       }
     },
   },
