@@ -1,7 +1,7 @@
 export const Hero = () => {
   return (
     <>
-      <section className="h-screen flex items-center text-white px-[60px] bg-hero bg-auto">
+      <section className="h-screen flex items-center text-white px-[60px] bg-hero bg-auto bg-right bg-no-repeat">
           <div className="mt-20">
               <img className="w-[30px] h-[30px] -rotate-[14.38] ms-3" src="/assets/icons/bracket.svg" alt="code"/>
               <div className="ps-[33px]">
