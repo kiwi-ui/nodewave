@@ -1,3 +1,4 @@
+import { Products } from "@/components/products";
 import { Header } from "../components/header";
 import { Hero } from "../components/hero";
 
@@ -10,6 +11,7 @@ export default function Home() {
 
       <main className="leading-[30px]">
         <Hero />
+        <Products />
       </main>
     </>
   )

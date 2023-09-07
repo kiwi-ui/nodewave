@@ -18,11 +18,14 @@ module.exports = {
       colors: {
         'secondary': '00AD98',
         'tertiary': '#FFB347',
-        'dark': '#333333',
+        'semiblack': '#333333',
         'semidark': '#555555'
       },
       backgroundImage: {
         'hero': 'url("/assets/images/background.png")'
+      },
+      dropShadow: {
+        'fit' : '0px 2px 6px 0px rgba(0, 0, 0, 0.24)'
       }
     },
   },
