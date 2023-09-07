@@ -1,9 +1,16 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Header } from "../components/header";
+import { Hero } from "../components/hero";
 
-const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
-    <div>Hello next js</div>
+    <>
+      <header className="fixed py-[28px] px-[60px] w-full">
+        <Header/>
+      </header>
+
+      <main>
+        <Hero />
+      </main>
+    </>
   )
 }
