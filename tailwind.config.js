@@ -22,7 +22,9 @@ module.exports = {
         'semidark': '#555555'
       },
       backgroundImage: {
-        'hero': 'url("/assets/images/background.png")'
+        'hero': 'url("/assets/images/background.png")',
+        'jasa': 'url("/assets/images/jasabg.png")',
+        'rayu': 'url("/assets/images/rayumotor.png")'
       },
       dropShadow: {
         'fit' : '0px 2px 6px 0px rgba(0, 0, 0, 0.24)'
