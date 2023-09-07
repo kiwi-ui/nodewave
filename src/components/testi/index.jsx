@@ -1,20 +1,21 @@
 import React from 'react'
 
 export const Testimoni = () => {
-    const testimonies = [
-        {
-            testi: 'Buat aplikasi sama tim ini emang luar biasa dicarikan solusi yang paling murah supaya bisa segera mulai aplikasi PPOB saya. 2 minggu udah jadi hasilnya saya tinggal fokus di promosi! Terima kasih Nodewave.',
-            name: 'Ahmad Prasetyo'
-        },
-        {
-            testi: 'Awalnya bingung mau buat website pada mahal. Hubungi tim Nodewave, ngobrol bentar, eh aplikasinya langsung jadi. Saya dan suami tinggal cerita aja lewat zoom maunya buat website seperti apa, langsung dibuatin dengan cepat sama Nodewave.',
-            name: 'Laras Ratnadewi'
-        },
-        {
-            testi: 'Yang paling keren sih source codenya sekalian dikasih, pas pula bisa pakai Flutter, jadi gw ama cofounder bisa develop lagi fitur2 baru untuk startup gw. Thanks a lot Nodewave supportnya!!',
-            name: 'Yusuf Uwais'
-        },
-    ]
+  const testimonies = [
+    {
+      testi: 'Buat aplikasi sama tim ini emang luar biasa dicarikan solusi yang paling murah supaya bisa segera mulai aplikasi PPOB saya. 2 minggu udah jadi hasilnya saya tinggal fokus di promosi! Terima kasih Nodewave.',
+      name: 'Ahmad Prasetyo'
+    },
+    {
+      testi: 'Awalnya bingung mau buat website pada mahal. Hubungi tim Nodewave, ngobrol bentar, eh aplikasinya langsung jadi. Saya dan suami tinggal cerita aja lewat zoom maunya buat website seperti apa, langsung dibuatin dengan cepat sama Nodewave.',
+      name: 'Laras Ratnadewi'
+    },
+    {
+      testi: 'Yang paling keren sih source codenya sekalian dikasih, pas pula bisa pakai Flutter, jadi gw ama cofounder bisa develop lagi fitur2 baru untuk startup gw. Thanks a lot Nodewave supportnya!!',
+      name: 'Yusuf Uwais'
+    },
+  ]
+
   return (
     <section className="px-[60px] py-10 text-white">
         <p className="text-2xl font-semibold">Testimony</p>
