@@ -2,7 +2,8 @@ export const Products = () => {
   return (
     <section className="h-screen text-white px-[60px] py-10">
         <p className="text-center text-[32px] font-semibold">Our Product</p>
-        <div className="pt-10 flex mx-16 grid-flow-col gap-6 font-rubik justify-center">
+        
+        <div className="pt-10 flex mx-28 grid-flow-col gap-6 font-rubik justify-center">
             <div className="w-1/2 flex flex-col gap-6">
                 <div className="flex flex-grow relative flex-row items-center bg-white px-10 py-12 gap-6 rounded-3xl">
                     <img className="w-[60px] h-[60px]" src="/assets/icons/phone.svg"/>

@@ -1,6 +1,7 @@
 import { Products } from "@/components/products";
 import { Header } from "../components/header";
 import { Hero } from "../components/hero";
+import { Testimoni } from "@/components/testi";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <main className="leading-[30px]">
         <Hero />
         <Products />
+        <Testimoni />
       </main>
     </>
   )

@@ -16,7 +16,7 @@ module.exports = {
         btn: '#00AD98'
       },
       colors: {
-        'secondary': '00AD98',
+        'secondary': '#00AD98',
         'tertiary': '#FFB347',
         'semiblack': '#333333',
         'semidark': '#555555'
