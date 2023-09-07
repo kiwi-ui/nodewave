@@ -16,10 +16,13 @@ module.exports = {
         btn: '#00AD98'
       },
       colors: {
-          'secondary': '00AD98',
-          'tertiary': '#FFB347',
-          'dark': '#333333',
-          'semidark': '#555555'
+        'secondary': '00AD98',
+        'tertiary': '#FFB347',
+        'dark': '#333333',
+        'semidark': '#555555'
+      },
+      backgroundImage: {
+        'hero': 'url("/assets/images/background.png")'
       }
     },
   },

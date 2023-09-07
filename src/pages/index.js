@@ -8,7 +8,7 @@ export default function Home() {
         <Header/>
       </header>
 
-      <main className="px-[60px] leading-[30px]">
+      <main className="leading-[30px]">
         <Hero />
       </main>
     </>
