@@ -24,7 +24,9 @@ module.exports = {
       backgroundImage: {
         'hero': 'url("/assets/images/background.png")',
         'jasa': 'url("/assets/images/jasabg.png")',
-        'rayu': 'url("/assets/images/rayumotor.png")'
+        'rayu': 'url("/assets/images/rayumotor.png")',
+        'gradientImg': 'url("/assets/images/bghow.jpg")',
+        'gradientImgBlack':  'url("/assets/images/gradientBlack.png")'
       },
       dropShadow: {
         'fit' : '0px 2px 6px 0px rgba(0, 0, 0, 0.24)'
