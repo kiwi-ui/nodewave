@@ -99,7 +99,7 @@ export const RecentProject = () => {
 
         <div>
             <p className="text-[32px] font-semibold leading-normal text-center mb-[30px]">Start Creating Websites or Mobile Apps For You Now</p>
-            <div className="flex flex-row gap-[100px]">
+            <div className="flex flex-row gap-[100px] justify-center">
                 <div className="flex flex-row bg-white rounded-[10px] items-center">
                     <div className="flex flex-col text-black w-1/2">
                         <div className="text-center">
