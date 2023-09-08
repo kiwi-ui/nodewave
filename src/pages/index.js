@@ -5,6 +5,7 @@ import { Testimoni } from "@/components/testi";
 import { Works } from "@/components/works/index.";
 import { HowWeWork } from "@/components/howWeWork";
 import { RecentProject } from "@/components/recentProject";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Works />
         <HowWeWork />
         <RecentProject />
+        <Footer />
       </main>
     </>
   )
