@@ -19,7 +19,8 @@ module.exports = {
         'secondary': '#00AD98',
         'tertiary': '#FFB347',
         'semiblack': '#333333',
-        'semidark': '#555555'
+        'semidark': '#555555',
+        'blur' : "#717171"
       },
       backgroundImage: {
         'hero': 'url("/assets/images/background.png")',

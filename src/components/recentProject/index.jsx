@@ -88,7 +88,7 @@ export const RecentProject = () => {
             </div>
         </div>
 
-        <div className="flex flex-row gap-5 mt-[60px]">
+        <div className="flex flex-row gap-5 mt-[60px] mb-[100px]">
             {finishedProject.map((project) => (
                 <div className="flex flex-row gap-[10px] items-center" key={ project.id }>
                     <img src={project.icons} width={50} height={50} alt={project.name}/>
@@ -96,6 +96,41 @@ export const RecentProject = () => {
                 </div>
             ))}
         </div>
+
+        <div>
+            <p className="text-[32px] font-semibold leading-normal text-center mb-[30px]">Start Creating Websites or Mobile Apps For You Now</p>
+            <div className="flex flex-row gap-[100px]">
+                <div className="flex flex-row bg-white rounded-[10px] items-center">
+                    <div className="flex flex-col text-black w-1/2">
+                        <div className="text-center">
+                            <p className="text-[32px] mb-5 font-semibold">Website</p>
+                            <p className="text-xl font-semibold ">Start from</p>
+                            <p className="line-through text-blur decoration-[#FF3939]">Rp, 1.000.000 <img className="w-5 h-5 rotate-[24.799deg] inline absolute -ms-3" src="/assets/icons/discount.svg" /></p>
+                            <p className="text-sm font-medium">Rp, 500.000</p>
+                        </div>
+                        <div className="flex justify-center">
+                            <button className="text-sm py-[10px] px-[26px] mt-12 bg-btn text-white rounded-[29px]">Order Now</button>
+                        </div>
+                    </div>
+                    <img className="h-full w-1/2" src="/assets/images/code.png" alt="code"/>
+                </div>
+
+                <div className="flex flex-row bg-white rounded-[10px] items-center">
+                    <div className="flex flex-col text-black w-1/2">
+                        <div className="text-center">
+                            <p className="text-[32px] mb-5 font-semibold">Mobile Apps</p>
+                            <p className="text-xl font-semibold ">Start from</p>
+                            <p className="text-sm font-medium">Rp, 999.000</p>
+                        </div>
+                        <div className="flex justify-center">
+                            <button className="text-sm py-[10px] px-[26px] mt-12 bg-btn text-white rounded-[29px]">Order Now</button>
+                        </div>
+                    </div>
+                    <img className="h-full w-1/2" src="/assets/images/hp.png" alt="code"/>
+                </div>
+            </div>
+        </div>
+
     </section>
   )
 }
