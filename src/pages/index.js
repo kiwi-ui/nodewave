@@ -10,7 +10,7 @@ import { Footer } from "@/components/footer";
 export default function Home() {
   return (
     <>
-      <header className="fixed py-[28px] px-[60px] w-full">
+      <header className="pt-[28px] px-[60px] w-full">
         <Header/>
       </header>
 
